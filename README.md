@@ -8,17 +8,17 @@ Key Features
 
 🔍 Key Features:
 
-✨ Real-Time Face Recognition: Utilizes OpenCV and the face_recognition library to detect and recognize faces in real-time, enhancing the speed and accuracy of attendance logging.
+✨ Real-Time Face Recognition: Utilizes OpenCV and face_recognition library to detect and recognize faces in real-time.
 
-✨ Attendance Time Check: Implements a time-check mechanism to ensure students are not marked present multiple times within a short period, maintaining the integrity of attendance records.
+✨ Attendance Time Check: This model ensure that students are not marked present multiple times within a short period, maintaining the integrity of attendance records.
 
-✨ Detailed Student Information Display: Shows comprehensive student information, including total attendance, course, Branch, Batch,Last marked attendance providing a complete view of the student profile during recognition.
+✨ Detailed Student Information Display: Shows comprehensive student information, including TOTAL ATTENDANCE, COURSE, BRANCH, BATCH, LAST MARKED ATTENDANCE providing a complete view of the student profile.
 
 ✨ Seamless Firebase Integration: Efficiently stores and retrieves student records and images using Firebase's real-time database and cloud storage, ensuring data is always up-to-date and accessible.
 
 ✨ Automated Attendance Logging: Upon successful face recognition, the system automatically updates attendance records in the Firebase database, reducing manual work and minimizing errors.
 
-✨ Dynamic GUI Display: Features a custom GUI using OpenCV that dynamically displays student information, attendance status, and other relevant details in an engaging and user-friendly manner.
+✨ Dynamic GUI Display: Features a custom GUI using OpenCV that dynamically displays student information, attendance status, and other relevant details in an user-friendly manner.
 
 ✨ Face Encoding and Storage: The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
 
