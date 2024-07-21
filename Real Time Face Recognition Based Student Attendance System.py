@@ -19,8 +19,8 @@ bucket = storage.bucket()
 
 #WEBCAMERA
 webcam = cv2.VideoCapture(0)
-webcam.set(3, 640)
-webcam.set(4, 480)
+webcam.set(3,640)
+webcam.set(4,480)
 
 
 imgBg = cv2.imread('bgImg/background.png')
@@ -44,9 +44,9 @@ imgStudent = []
 
 while True:
     success, frame = webcam.read()
-    frame = cv2.flip(frame, 1)
+    frame = cv2.flip(frame,1)
 
-    Sframe = cv2.resize(frame, (0, 0), None, 0.25, 0.25)
+    Sframe = cv2.resize(frame, (0,0), None, 0.25, 0.25)
     Sframe = cv2.cvtColor(Sframe, cv2.COLOR_BGR2RGB)
 
     ##### Face recognition #####
@@ -72,7 +72,7 @@ while True:
                 id = studentIds[matchIndex]
 
                 if counter == 0:
-                    cvzone.putTextRect(imgBg, "Scanning....", (197, 400), 3, 3, (0, 255, 0), (0, 0, 0), cv2.FONT_HERSHEY_PLAIN)
+                    cvzone.putTextRect(imgBg, "Scanning....", (197,400), 3, 3, (0,255,0), (0,0,0), cv2.FONT_HERSHEY_PLAIN)
                     cv2.imshow("Face Attendance", imgBg)
                     cv2.waitKey(1)
                     counter = 1
@@ -111,17 +111,17 @@ while True:
                 imgBg[70:70 + 584, 830:830 + 368] = imgModeList[modeNo]
 
                 if counter <= 10:
-                    cv2.putText(imgBg, str(studentInfo['NAME']), (877, 126), cv2.FONT_HERSHEY_COMPLEX, 1.2, (255, 0, 255), 2)
-                    cv2.putText(imgBg, "ID: " + str(studentInfo['ROLL NO']), (890, 454), cv2.FONT_HERSHEY_PLAIN, 1.9, (255, 0, 255), 2)
-                    cv2.putText(imgBg, "COURSE: " + str(studentInfo['COURSE']), (890, 510), cv2.FONT_HERSHEY_PLAIN, 1.8, (255, 0, 255), 2)
-                    cv2.putText(imgBg, "BRANCH: " + str(studentInfo['BRANCH']), (890, 566), cv2.FONT_HERSHEY_PLAIN, 1.8, (255, 0, 255), 2)
-                    cv2.putText(imgBg, "BATCH: " + str(studentInfo['BATCH']), (890, 622), cv2.FONT_HERSHEY_PLAIN, 1.7, (255, 0, 255), 2)
+                    cv2.putText(imgBg, str(studentInfo['NAME']), (877,126), cv2.FONT_HERSHEY_COMPLEX, 1.2, (255, 0, 255), 2)
+                    cv2.putText(imgBg, "ID: " + str(studentInfo['ROLL NO']), (890,454), cv2.FONT_HERSHEY_PLAIN, 1.9, (255, 0, 255), 2)
+                    cv2.putText(imgBg, "COURSE: " + str(studentInfo['COURSE']), (890,510), cv2.FONT_HERSHEY_PLAIN, 1.8, (255, 0, 255), 2)
+                    cv2.putText(imgBg, "BRANCH: " + str(studentInfo['BRANCH']), (890,566), cv2.FONT_HERSHEY_PLAIN, 1.8, (255, 0, 255), 2)
+                    cv2.putText(imgBg, "BATCH: " + str(studentInfo['BATCH']), (890,622), cv2.FONT_HERSHEY_PLAIN, 1.7, (255, 0, 255), 2)
                     imgBg[170:170 + 216, 909:909 + 216] = imgStudent
 
                 
                 if modeNo == 1:
-                    cv2.putText(imgBg, studentInfo['NAME'], (55 + x1, 162 + y1 - 10), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 255, 0), 2)
-                    cv2.putText(imgBg, "LAST MARKED: " + studentInfo['LAST MARKED'], (62, 200), cv2.FONT_HERSHEY_PLAIN, 2, (128,0,128), 3)
+                    cv2.putText(imgBg, studentInfo['NAME'], (55 + x1, 162 + y1 - 10), cv2.FONT_HERSHEY_COMPLEX, 1, (0,255, 0), 2)
+                    cv2.putText(imgBg, "LAST MARKED: " + studentInfo['LAST MARKED'], (62,200), cv2.FONT_HERSHEY_PLAIN, 2, (128,0,128), 3)
 
                 counter += 1
 
