@@ -8,7 +8,7 @@ import firebase_admin
 from firebase_admin import credentials, db, storage
 from datetime import datetime
 
-# Initialize Firebase
+    ########Initialize Firebase#######
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
     'databaseURL': "https://faceattendancesystem-32771-default-rtdb.firebaseio.com/",
@@ -17,27 +17,26 @@ firebase_admin.initialize_app(cred, {
 
 bucket = storage.bucket()
 
-# Initialize webcam
+#WEBCAMERA
 webcam = cv2.VideoCapture(0)
 webcam.set(3, 640)
 webcam.set(4, 480)
 
-# Load background image
+
 imgBg = cv2.imread('bgImg/background.png')
 
-# Import mode images into a list
+
 folderModePath = 'templates'
 modePathList = os.listdir(folderModePath)
 imgModeList = [cv2.imread(os.path.join(folderModePath, path)) for path in modePathList]
 
-# Load encoding file
+
 print("Loading Encode File ...")
 with open('EncodeFile.p', 'rb') as file:
     encodeListKnownWithIds = pickle.load(file)
 encodeListKnown, studentIds = encodeListKnownWithIds
 print("Encode File Loaded")
 
-# Initialize variables
 modeNo = 0
 counter = 0
 id = -1
@@ -50,11 +49,11 @@ while True:
     Sframe = cv2.resize(frame, (0, 0), None, 0.25, 0.25)
     Sframe = cv2.cvtColor(Sframe, cv2.COLOR_BGR2RGB)
 
-    # Face recognition
+    ##### Face recognition #####
     faceCurFrame = face_recognition.face_locations(Sframe)
     encodeCurFrame = face_recognition.face_encodings(Sframe, faceCurFrame)
 
-    # Update background image with webcam feed
+    ##### Update background image with webcam feed #####
     imgBg[162:162 + 480, 55:55 + 640] = frame
     imgBg[70:70 + 584, 830:830 + 368] = imgModeList[modeNo]
 
@@ -81,11 +80,12 @@ while True:
 
         if counter != 0:
             if counter == 1:
-                # Retrieve student information from Firebase Realtime Database
+                # taking student information from Firebase Realtime Database
                 studentInfo = db.reference(f'Students/{id}').get()
                 print(studentInfo)
 
-                # Retrieve student image from Firebase Storage
+                
+                # retrieve student image from Firebase Storage
                 blob = bucket.get_blob(f'Images/{id}.jpg')
                 array = np.frombuffer(blob.download_as_string(), np.uint8)
                 imgStudent = cv2.imdecode(array, cv2.COLOR_BGRA2BGR)
@@ -118,7 +118,7 @@ while True:
                     cv2.putText(imgBg, "BATCH: " + str(studentInfo['BATCH']), (890, 622), cv2.FONT_HERSHEY_PLAIN, 1.7, (255, 0, 255), 2)
                     imgBg[170:170 + 216, 909:909 + 216] = imgStudent
 
-                # Display name above the bounding box when modeNo is 1
+                
                 if modeNo == 1:
                     cv2.putText(imgBg, studentInfo['NAME'], (55 + x1, 162 + y1 - 10), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 255, 0), 2)
                     cv2.putText(imgBg, "LAST MARKED: " + studentInfo['LAST MARKED'], (62, 200), cv2.FONT_HERSHEY_PLAIN, 2, (128,0,128), 3)
@@ -141,3 +141,5 @@ while True:
 
 webcam.release()
 cv2.destroyAllWindows()
+
+   
