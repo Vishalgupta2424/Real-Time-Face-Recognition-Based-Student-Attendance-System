@@ -22,11 +22,6 @@ Key Features
 
 - Face Encoding and Storage: The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
 
-- Background Image Integration: Integrates custom background images in the GUI to provide a visually appealing interface.
-
-- Image Handling and Processing: Downloads and decodes student images from Firebase storage in real-time, ensuring smooth and fast image handling during the recognition process.
-
-
 
 🛠️ Technical Stack:
 - Languages: Python
@@ -36,6 +31,3 @@ Key Features
 
 This project not only enhances the efficiency of attendance systems but also showcases the potential of integrating advanced technologies for practical applications. I'm excited about the possibilities this technology holds for the future of education! 🌐📚
 
-Feel free to connect if you're interested in learning more about this project or discussing potential collaborations! 🤝
-
-#FaceRecognition #MachineLearning #ArtificialIntelligence #StudentAttendance #Firebase #Python #OpenCV #Innovation #TechnologyInEducation #ProjectShowcase
