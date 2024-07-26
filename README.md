@@ -34,6 +34,7 @@ Key Features
  <h1>MARKED:</h1>
 ![studentinfo gif](https://github.com/user-attachments/assets/c89be00d-f3eb-43bb-a0b1-ad4c8f4c63e2)
 
+![studentinfo gif](https://github.com/user-attachments/assets/bdef1d36-3d03-4027-a1d1-8ac14f77e641)
 
 
 
