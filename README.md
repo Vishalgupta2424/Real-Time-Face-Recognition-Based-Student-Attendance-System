@@ -22,8 +22,14 @@ SCANNING:
 
 
 
+
 ✨ Detailed Student Information Display: Shows comprehensive student information, including TOTAL ATTENDANCE, COURSE, BRANCH, BATCH, LAST MARKED ATTENDANCE providing a complete view of the student profile.
+
+STUDENT'S INFO:
+
 ![studentinfo gif](https://github.com/user-attachments/assets/c89be00d-f3eb-43bb-a0b1-ad4c8f4c63e2)
+
+
 
 
 ✨ Attendance Time Check: This model ensure that students are not marked present multiple times within a short period, maintaining the integrity of attendance records.
