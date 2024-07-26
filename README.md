@@ -9,6 +9,9 @@ Key Features
 🔍 Key Features:
 
 ✨ Face Encoding and Scanning: The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
+![Encode-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f22f976f-4a3e-4ec0-b0bb-6e7c4dd1cb30)
+
+
 
 
 ![active scaning gif](https://github.com/user-attachments/assets/09bbc478-9320-4c7d-8759-9050f2621aaf)
@@ -25,16 +28,10 @@ Key Features
 
 ✨ Seamless Firebase Integration: Efficiently stores and retrieves student records and images using Firebase's real-time database and cloud storage, ensuring data is always up-to-date and accessible.
 
-
-https://github.com/user-attachments/assets/31dd83a1-65ed-4242-a03b-56d0fa1da92a
-
+![Db1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/34c65bd8-0708-4e8b-ab60-096807c222f9)
 
 
-
-
-
-
-https://github.com/user-attachments/assets/98ead65a-3778-4531-a568-4c8bb0f6984f
+![Db2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/900b002e-d1e1-4214-a697-fcada62399b4)
 
 
 
