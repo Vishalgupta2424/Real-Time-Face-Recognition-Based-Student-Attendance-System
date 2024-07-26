@@ -10,9 +10,10 @@ I've designed a cutting-edge face recognition-based attendance system that captu
 
 
 <h1>🔍Key Features:</h1>
+<br>
 
  <h1>ACTIVE MODE:</h1>The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
-
+<br>
 <h1>ENCODING:</h1>
 
 
@@ -25,7 +26,7 @@ I've designed a cutting-edge face recognition-based attendance system that captu
 
 
 
-
+<br>
 
  <h1>STUDENT'S INFO:</h1>Shows comprehensive student information, including TOTAL ATTENDANCE, COURSE, BRANCH, BATCH, LAST MARKED ATTENDANCE providing a complete view of the student profile.
  
@@ -33,13 +34,13 @@ I've designed a cutting-edge face recognition-based attendance system that captu
  ![student info gif](https://github.com/user-attachments/assets/5bb8f2ee-fe3b-454a-b7b8-6429072b1c01)
 
 
-
+<br>
  <h1>MARKED:</h1>:Attendance is taken successfully
 
 ![studentinfo gif](https://github.com/user-attachments/assets/bdef1d36-3d03-4027-a1d1-8ac14f77e641)
 
 
-
+<br>
  <h1>ALREADY MARKED STATUS:</h1>This model ensure that students are not marked present multiple times within a short period, maintaining the integrity of attendance records.
 
 
@@ -48,13 +49,13 @@ I've designed a cutting-edge face recognition-based attendance system that captu
 
 
 
-
+<br>
  <h1>DATABASE:</h1>Efficiently stores and retrieves student records and images using Firebase's real-time database and cloud storage, ensuring data is always up-to-date and accessible.
 
 ![db1gif](https://github.com/user-attachments/assets/ba200912-008d-4e44-8025-694856af4718)![Db2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/900b002e-d1e1-4214-a697-fcada62399b4) 
 
 
-
+<br>
  <h1>LAST MARKED & TOTAL ATTENDANCE UPDATE:</h1>Upon successful face recognition, the system automatically updates attendance records such as last marked and total attendance in the Firebase database, reducing manual work and minimizing error
 
 
