@@ -33,10 +33,17 @@ STUDENT'S INFO:
 
 
 ✨ Attendance Time Check: This model ensure that students are not marked present multiple times within a short period, maintaining the integrity of attendance records.
+
+ALREADY MARKED:
+
 ![alreadymarked gif](https://github.com/user-attachments/assets/70f6bab7-d33f-49e6-9481-6f5cca942760)
 
 
+
+
 ✨ Seamless Firebase Integration: Efficiently stores and retrieves student records and images using Firebase's real-time database and cloud storage, ensuring data is always up-to-date and accessible.
+
+
 
 ![Db1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/34c65bd8-0708-4e8b-ab60-096807c222f9)
 
@@ -47,6 +54,9 @@ STUDENT'S INFO:
 
 
 ✨ Automated Attendance Logging: Upon successful face recognition, the system automatically updates attendance records such as last marked and total attendance in the Firebase database, reducing manual work and minimizing error
+
+LAST MARKED & TOTAL ATTENDANCE UPDATE:
+
 ![lastmarkedgif](https://github.com/user-attachments/assets/6c0440c3-7558-44ad-9076-2d8d09cf31a5)
 
 
