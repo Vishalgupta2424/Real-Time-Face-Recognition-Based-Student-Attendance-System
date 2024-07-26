@@ -8,7 +8,7 @@ Key Features
 
 🔍 Key Features:
 
-✨ Face Encoding and Scanning: The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
+✨ ACTIVE MODE: The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
 
 ENCODING:
 
@@ -23,39 +23,36 @@ SCANNING:
 
 
 
-✨ Detailed Student Information Display: Shows comprehensive student information, including TOTAL ATTENDANCE, COURSE, BRANCH, BATCH, LAST MARKED ATTENDANCE providing a complete view of the student profile.
+✨ STUDENT'S INFO : Shows comprehensive student information, including TOTAL ATTENDANCE, COURSE, BRANCH, BATCH, LAST MARKED ATTENDANCE providing a complete view of the student profile.
 
-STUDENT'S INFO:
+
 
 ![studentinfo gif](https://github.com/user-attachments/assets/c89be00d-f3eb-43bb-a0b1-ad4c8f4c63e2)
 
 
 
 
-✨ Attendance Time Check: This model ensure that students are not marked present multiple times within a short period, maintaining the integrity of attendance records.
+✨ ALREADY MARKED STATUS : This model ensure that students are not marked present multiple times within a short period, maintaining the integrity of attendance records.
 
-ALREADY MARKED:
+
 
 ![alreadymarked gif](https://github.com/user-attachments/assets/70f6bab7-d33f-49e6-9481-6f5cca942760)
 
 
 
 
-✨ Seamless Firebase Integration: Efficiently stores and retrieves student records and images using Firebase's real-time database and cloud storage, ensuring data is always up-to-date and accessible.
+✨ DATABASE : Efficiently stores and retrieves student records and images using Firebase's real-time database and cloud storage, ensuring data is always up-to-date and accessible.
 
 
 
-![Db1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/34c65bd8-0708-4e8b-ab60-096807c222f9)
-
-
-![Db2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/900b002e-d1e1-4214-a697-fcada62399b4)
+![Db1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/34c65bd8-0708-4e8b-ab60-096807c222f9)![Db2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/900b002e-d1e1-4214-a697-fcada62399b4)
 
 
 
 
-✨ Automated Attendance Logging: Upon successful face recognition, the system automatically updates attendance records such as last marked and total attendance in the Firebase database, reducing manual work and minimizing error
+✨ LAST MARKED & TOTAL ATTENDANCE UPDATE : Upon successful face recognition, the system automatically updates attendance records such as last marked and total attendance in the Firebase database, reducing manual work and minimizing error
 
-LAST MARKED & TOTAL ATTENDANCE UPDATE:
+
 
 ![lastmarkedgif](https://github.com/user-attachments/assets/6c0440c3-7558-44ad-9076-2d8d09cf31a5)
 
