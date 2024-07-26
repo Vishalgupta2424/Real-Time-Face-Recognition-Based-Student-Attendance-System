@@ -8,7 +8,7 @@ Key Features
 
 <h1>🔍Key Features:</h1>
 
-✨<h1>ACTIVE MODE:</h1>The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
+ <h1>ACTIVE MODE:</h1>The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
 
 <h1>ENCODING:</h1>
 
@@ -24,7 +24,7 @@ Key Features
 
 
 
-✨ <h1>STUDENT'S INFO:</h1>Shows comprehensive student information, including TOTAL ATTENDANCE, COURSE, BRANCH, BATCH, LAST MARKED ATTENDANCE providing a complete view of the student profile.
+ <h1>STUDENT'S INFO:</h1>Shows comprehensive student information, including TOTAL ATTENDANCE, COURSE, BRANCH, BATCH, LAST MARKED ATTENDANCE providing a complete view of the student profile.
 
 
 
@@ -33,7 +33,7 @@ Key Features
 
 
 
-✨ <h1>ALREADY MARKED STATUS:</h1>This model ensure that students are not marked present multiple times within a short period, maintaining the integrity of attendance records.
+ <h1>ALREADY MARKED STATUS:</h1>This model ensure that students are not marked present multiple times within a short period, maintaining the integrity of attendance records.
 
 
 
@@ -42,7 +42,7 @@ Key Features
 
 
 
-✨ <h1>DATABASE:</h1>Efficiently stores and retrieves student records and images using Firebase's real-time database and cloud storage, ensuring data is always up-to-date and accessible.
+ <h1>DATABASE:</h1>Efficiently stores and retrieves student records and images using Firebase's real-time database and cloud storage, ensuring data is always up-to-date and accessible.
 
 
 ![Db2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/900b002e-d1e1-4214-a697-fcada62399b4)
@@ -50,7 +50,7 @@ Key Features
 
 
 
-✨ <h1>LAST MARKED & TOTAL ATTENDANCE UPDATE:</h1>Upon successful face recognition, the system automatically updates attendance records such as last marked and total attendance in the Firebase database, reducing manual work and minimizing error
+ <h1>LAST MARKED & TOTAL ATTENDANCE UPDATE:</h1>Upon successful face recognition, the system automatically updates attendance records such as last marked and total attendance in the Firebase database, reducing manual work and minimizing error
 
 
 
