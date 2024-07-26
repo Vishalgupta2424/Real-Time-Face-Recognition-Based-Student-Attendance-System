@@ -10,7 +10,7 @@ Key Features
 
 ✨ Face Encoding and Scanning: The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
 
-![encoding gif](https://github.com/user-attachments/assets/168
+
 ![active scaning gif](https://github.com/user-attachments/assets/09bbc478-9320-4c7d-8759-9050f2621aaf)
 3df62-e238-4cca-aa18-cc159883a64a)
 
@@ -27,7 +27,6 @@ Key Features
 ![database1](https://github.com/user-attachments/assets/346c5b49-0e8a-439c-9b5d-6a14c7a05c82)
 
 
-https://github.com/user-attachments/assets/baa9704f-723c-4cf4-8ffc-0f5b215bf471
 
 ✨ Automated Attendance Logging: Upon successful face recognition, the system automatically updates attendance records such as last marked and total attendance in the Firebase database, reducing manual work and minimizing error
 ![lastmarkedgif](https://github.com/user-attachments/assets/6c0440c3-7558-44ad-9076-2d8d09cf31a5)
