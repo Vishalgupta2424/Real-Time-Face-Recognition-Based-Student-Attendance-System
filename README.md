@@ -8,19 +8,25 @@ Key Features
 
 🔍 Key Features:
 
-✨ Real-Time Face Recognition: Utilizes OpenCV and face_recognition library to detect and recognize faces in real-time.
+✨ Face Encoding and Scanning: The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
 
-✨ Attendance Time Check: This model ensure that students are not marked present multiple times within a short period, maintaining the integrity of attendance records.
+
 
 ✨ Detailed Student Information Display: Shows comprehensive student information, including TOTAL ATTENDANCE, COURSE, BRANCH, BATCH, LAST MARKED ATTENDANCE providing a complete view of the student profile.
 
+
+
+✨ Attendance Time Check: This model ensure that students are not marked present multiple times within a short period, maintaining the integrity of attendance records.
+
+
+
 ✨ Seamless Firebase Integration: Efficiently stores and retrieves student records and images using Firebase's real-time database and cloud storage, ensuring data is always up-to-date and accessible.
 
-✨ Automated Attendance Logging: Upon successful face recognition, the system automatically updates attendance records in the Firebase database, reducing manual work and minimizing errors.
 
-✨ Dynamic GUI Display: Features a custom GUI using OpenCV that dynamically displays student information, attendance status, and other relevant details in an user-friendly manner.
 
-✨ Face Encoding and Storage: The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
+✨ Automated Attendance Logging: Upon successful face recognition, the system automatically updates attendance records such as last marked and total attendance in the Firebase database, reducing manual work and minimizing errors
+
+
 
 
 🛠️ Technical Stack:
