@@ -10,7 +10,7 @@ Key Features
 
 ✨ ACTIVE MODE: The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
 
-<h2>ENCODING:</h2>
+<h6>ENCODING:</h6>
 
 
 ![Encode-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f22f976f-4a3e-4ec0-b0bb-6e7c4dd1cb30)
