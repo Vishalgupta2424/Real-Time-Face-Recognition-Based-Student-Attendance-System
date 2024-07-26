@@ -1,9 +1,12 @@
 <h1>Real-Time-Face-Recognition-Based-Student-Attendance-System</h1>
 
+<br>
+
 <h1>🚀 Project Overview:</h1>
 
 I've designed a cutting-edge face recognition-based attendance system that captures and processes student images in real-time to log their attendance efficiently and with accuracy at the frontend. This system is integrated at the backend with Firebase's Realtime Database and Cloud Storage for dynamic and reliable management of student data.
-Key Features
+
+<br>
 
 
 <h1>🔍Key Features:</h1>
@@ -31,7 +34,7 @@ Key Features
 
 
 
- <h1>MARKED:</h1>
+ <h1>MARKED:</h1>:Attendance is taken successfully
 
 ![studentinfo gif](https://github.com/user-attachments/assets/bdef1d36-3d03-4027-a1d1-8ac14f77e641)
 
