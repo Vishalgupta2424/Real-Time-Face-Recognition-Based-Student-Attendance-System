@@ -12,11 +12,6 @@ firebase_admin.initialize_app(cred, {
 
 
 
-
-
-
-#print("completed")
-
 ref = db.reference("Students")
 
 data={
@@ -59,8 +54,6 @@ data={
       
 
     },
-
-
 
 
 
