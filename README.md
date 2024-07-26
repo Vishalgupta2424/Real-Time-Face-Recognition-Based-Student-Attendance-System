@@ -9,11 +9,10 @@ Key Features
 🔍 Key Features:
 
 ✨ Face Encoding and Scanning: The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
+ENCODING:
 ![Encode-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f22f976f-4a3e-4ec0-b0bb-6e7c4dd1cb30)
 
-
-
-
+SCANNING:
 ![active scaning gif](https://github.com/user-attachments/assets/09bbc478-9320-4c7d-8759-9050f2621aaf)
 3df62-e238-4cca-aa18-cc159883a64a)
 
