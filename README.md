@@ -46,7 +46,7 @@ Key Features
 
 
 ![Db2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/900b002e-d1e1-4214-a697-fcada62399b4)
-![Db1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/34c65bd8-0708-4e8b-ab60-096807c222f9) 
+<h1>![Db1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/34c65bd8-0708-4e8b-ab60-096807c222f9)</h1>
 
 
 
