@@ -25,9 +25,13 @@ Key Features
 
 
  <h1>STUDENT'S INFO:</h1>Shows comprehensive student information, including TOTAL ATTENDANCE, COURSE, BRANCH, BATCH, LAST MARKED ATTENDANCE providing a complete view of the student profile.
+ 
+ 
+ ![student info gif](https://github.com/user-attachments/assets/5bb8f2ee-fe3b-454a-b7b8-6429072b1c01)
 
 
 
+ <h1>MARKED:</h1>
 ![studentinfo gif](https://github.com/user-attachments/assets/c89be00d-f3eb-43bb-a0b1-ad4c8f4c63e2)
 
 
