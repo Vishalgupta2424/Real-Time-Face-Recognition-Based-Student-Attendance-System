@@ -1,22 +1,22 @@
-Real-Time-Face-Recognition-Based-Student-Attendance-System
+<h1>Real-Time-Face-Recognition-Based-Student-Attendance-System</h1>
 
-🚀 Project Overview:
+<h1>🚀 Project Overview:</h1>
 
 I've designed a cutting-edge face recognition-based attendance system that captures and processes student images in real-time to log their attendance efficiently and with accuracy at the frontend. This system is integrated at the backend with Firebase's Realtime Database and Cloud Storage for dynamic and reliable management of student data.
 Key Features
 
 
-🔍 Key Features:
+<h1>🔍Key Features:</h1>
 
-✨ ACTIVE MODE: The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
+✨<h1>ACTIVE MODE:</h1>The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
 
-<h6>ENCODING:</h6>
+<h1>ENCODING:</h1>
 
 
 ![Encode-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f22f976f-4a3e-4ec0-b0bb-6e7c4dd1cb30)
 
 
-SCANNING:
+<h1>SCANNING:</h1>
 
 ![active scaning gif](https://github.com/user-attachments/assets/09bbc478-9320-4c7d-8759-9050f2621aaf)
 
@@ -24,7 +24,7 @@ SCANNING:
 
 
 
-✨ STUDENT'S INFO : Shows comprehensive student information, including TOTAL ATTENDANCE, COURSE, BRANCH, BATCH, LAST MARKED ATTENDANCE providing a complete view of the student profile.
+✨ <h1>STUDENT'S INFO:</h1>Shows comprehensive student information, including TOTAL ATTENDANCE, COURSE, BRANCH, BATCH, LAST MARKED ATTENDANCE providing a complete view of the student profile.
 
 
 
@@ -33,7 +33,7 @@ SCANNING:
 
 
 
-✨ ALREADY MARKED STATUS : This model ensure that students are not marked present multiple times within a short period, maintaining the integrity of attendance records.
+✨ <h1>ALREADY MARKED STATUS:</h1>This model ensure that students are not marked present multiple times within a short period, maintaining the integrity of attendance records.
 
 
 
@@ -42,7 +42,7 @@ SCANNING:
 
 
 
-✨ DATABASE : Efficiently stores and retrieves student records and images using Firebase's real-time database and cloud storage, ensuring data is always up-to-date and accessible.
+✨ <h1>DATABASE:</h1>Efficiently stores and retrieves student records and images using Firebase's real-time database and cloud storage, ensuring data is always up-to-date and accessible.
 
 
 ![Db2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/900b002e-d1e1-4214-a697-fcada62399b4)
@@ -50,7 +50,7 @@ SCANNING:
 
 
 
-✨ LAST MARKED & TOTAL ATTENDANCE UPDATE : Upon successful face recognition, the system automatically updates attendance records such as last marked and total attendance in the Firebase database, reducing manual work and minimizing error
+✨ <h1>LAST MARKED & TOTAL ATTENDANCE UPDATE:</h1>Upon successful face recognition, the system automatically updates attendance records such as last marked and total attendance in the Firebase database, reducing manual work and minimizing error
 
 
 
@@ -59,7 +59,7 @@ SCANNING:
 
 
 
-🛠️ Technical Stack:
+<h1>🛠️ Technical Stack:</h1>
 - Languages: Python
 - Libraries: OpenCV, face_recognition, cvzone, firebase_admin, NumPy, pickle. 
 - Database: Firebase Realtime Database
