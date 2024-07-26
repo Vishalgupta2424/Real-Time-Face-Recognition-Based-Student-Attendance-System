@@ -24,7 +24,18 @@ Key Features
 
 
 ✨ Seamless Firebase Integration: Efficiently stores and retrieves student records and images using Firebase's real-time database and cloud storage, ensuring data is always up-to-date and accessible.
-![database1](https://github.com/user-attachments/assets/346c5b49-0e8a-439c-9b5d-6a14c7a05c82)
+
+
+https://github.com/user-attachments/assets/31dd83a1-65ed-4242-a03b-56d0fa1da92a
+
+
+
+
+
+
+
+https://github.com/user-attachments/assets/98ead65a-3778-4531-a568-4c8bb0f6984f
+
 
 
 
