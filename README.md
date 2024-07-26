@@ -9,7 +9,7 @@ I've designed a cutting-edge face recognition-based attendance system that captu
 <br>
 
 
-<h1>🔍Key Features:</h1>
+<h1>Key Features:</h1>
 <br>
 
  <h1>ACTIVE MODE:</h1>The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
