@@ -8,7 +8,7 @@ I've designed a cutting-edge face recognition-based attendance system that captu
 
 <br>
 
-<h1><font size="7">key features</font></h1>
+<h1><font size="7">Algorithmic Flow:</font></h1>
 
 <br>
 
