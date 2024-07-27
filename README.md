@@ -8,8 +8,8 @@ I've designed a cutting-edge face recognition-based attendance system that captu
 
 <br>
 
-<h1><font size="10">WorkFlow:</font></h1>
-<br>
+<h><font size="10">WorkFlow:</font></h>
+
  <h1>ACTIVE MODE:</h1>The system encodes student facial features into vectors and saves these encodings for accurate face matching during the recognition process.
 <br>
 <h1>ENCODING:</h1>
