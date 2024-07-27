@@ -19,16 +19,12 @@ bucket = storage.bucket()
 
 #WEBCAMERA
 webcam = cv2.VideoCapture(0)
-webcam.set(3,640)
-webcam.set(4,480)
-
 
 imgBg = cv2.imread('bgImg/background.png')
 
-
-folderModePath = 'templates'
-modePathList = os.listdir(folderModePath)
-imgModeList = [cv2.imread(os.path.join(folderModePath, path)) for path in modePathList]
+ModePath = 'templates'
+modePathList = os.listdir(ModePath)
+imgModeList = [cv2.imread(os.path.join(ModePath, path)) for path in modePathList]
 
 
 print("Loading Encode File ...")
