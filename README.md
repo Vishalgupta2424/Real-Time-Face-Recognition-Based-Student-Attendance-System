@@ -35,7 +35,7 @@ I've designed a cutting-edge face recognition-based attendance system that captu
 
 
 <br>
- <h1>MARKED:</h1>:Attendance is taken successfully
+ <h1>MARKED STATUS:</h1>:Attendance is taken successfully
 
 ![studentinfo gif](https://github.com/user-attachments/assets/bdef1d36-3d03-4027-a1d1-8ac14f77e641)
 
